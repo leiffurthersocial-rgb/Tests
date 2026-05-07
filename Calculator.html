@@ -77,7 +77,7 @@
 <script>
   const categories = [
     { section: "Primary Physicals (High Weight)" },
-    { id: "face", title: "Facial Aesthetics🧏‍♂️ ", weight: 30, min: 1, max: 10, step: 0.1, default: 5,
+    { id: "face", title: "Facial Aesthetics 🧏‍♂️ ", weight: 30, min: 1, max: 10, step: 0.1, default: 5,
       getDesc: v => {
         if (v >= 9) return "Exceptional facial harmony. Very strong symmetry, sharp features, and strong immediate visual appeal.";
         if (v >= 8) return "Clearly attractive. Above-average symmetry and proportions, strong first-impression value.";
@@ -88,7 +88,7 @@
       },
       scoreMap: v => v / 10 },
 
-    { id: "height", title: "Height🦒 (cm)", weight: 25, min: 155, max: 200, step: 1, default: 177,
+    { id: "height", title: "Height 🦒 (cm)", weight: 25, min: 155, max: 200, step: 1, default: 177,
       getDesc: v => {
         if (v >= 192) return "Exceptionally tall. Very uncommon height and a major visual advantage in most settings.";
         if (v >= 186) return "Very tall. Strong height advantage, clearly above the typical range.";
